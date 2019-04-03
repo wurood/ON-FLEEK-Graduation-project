@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/lib/com.example.jaisonjoseph.newsclient"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffffff">
+
+    <include layout="@layout/include_hrm_counter" />
+
+    <include layout="@layout/include_vertical_space" />
+
+    <com.txusballesteros.SnakeView
+        android:id="@+id/snake"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_height="50dp"
+        app:minValue="50"
+        app:maxValue="180"
+        app:maximumNumberOfValues="10"
+        app:scaleMode="auto"
+        app:chartStyle="fill_stroke"
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/brand"
+        app:fillColor="@color/brand_fill"/>
+
+</LinearLayout>

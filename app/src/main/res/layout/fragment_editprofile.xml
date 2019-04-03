@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:layout_weight="0.60">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_sett"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="103dp"
+                android:src="@drawable/default_user" />
+
+            <ImageView
+                android:id="@+id/btn_sett_lod_pic"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="60dp"
+
+                android:src="@drawable/ic_launcher"
+                android:layout_alignBottom="@+id/img_sett"
+                android:layout_alignLeft="@+id/img_sett"
+                android:layout_alignStart="@+id/img_sett"
+                android:layout_marginStart="60dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="282dp"
+            android:layout_weight="1.38">
+
+            <EditText
+                android:id="@+id/etxt_sett_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etxt_sett_email"
+                android:layout_alignStart="@+id/etxt_sett_email"
+                android:layout_below="@+id/etxt_sett_email"
+                android:layout_marginTop="27dp"
+                android:ems="10"
+                android:hint="@string/etxt_sett_phone"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/etxt_sett_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/etxt_sett_name"
+                android:layout_alignStart="@+id/etxt_sett_name"
+                android:layout_below="@+id/etxt_sett_name"
+                android:layout_marginTop="23dp"
+                android:ems="10"
+                android:hint="@string/etxt_sett_email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/etxt_sett_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="21dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/etxt_sett_name"
+                android:inputType="textPersonName" />
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sub_sett"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/oval_button"
+        android:text="@string/btn_setinfo"
+
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+</RelativeLayout>

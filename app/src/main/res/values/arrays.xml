@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="object_array">
+
+        <item>ُEnglish</item>
+
+        <item>Arabic</item>
+
+    </string-array>
+
+    <array name="indicator_colors">
+        <item>#413e4f</item>
+        <item>#9b1818</item>
+        <item>#413e4f</item>
+        <item>#9b1818</item>
+    </array>
+</resources>

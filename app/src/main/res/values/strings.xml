@@ -1,0 +1,131 @@
+<resources>
+
+    <string name="app_name">Listview</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="event_title">Edit Title</string>
+    <string name="event_desc">Briefly describe your event </string>
+    <string name="event_address">Address</string>
+    <string name="event_type">select Type</string>
+    <string name="event_seats">Number of available seats</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_activity">On Fleek</string>
+    <string name="etxt_reg_name">Full Name</string>
+    <string name="etxt_reg_email">Email</string>
+    <string name="etxt_reg_pass">Password</string>
+    <string name="btn_reg">REGISTER</string>
+    <string name="etxt_sett_email">Email</string>
+    <string name="etxt_sett_name">Full Name</string>
+    <string name="etxt_sett_phone">NO Phone Number</string>
+    <string name="linkSignin">Not have an account yet? Register Me</string>
+    <string name="etxt_signin">Email</string>
+    <string name="etxt_signin_pass">Password</string>
+    <string name="btn_log">Login</string>
+    <string name="btn_lod_new"> Choose Image</string>
+    <string name="etxt_up_name">Event Name</string>
+    <string name="etxt_up_desc">About Event</string>
+    <string name="etxt_up_date">Event Date</string>
+    <string name="btn_up"> Upload Image</string>
+    <string name="etxt_list_title">Title</string>
+    <string name="etxt_list_desc">Description</string>
+    <string name="etxt_list_date">Date</string>
+    <string name="loading">Almost There</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_pass">please enter your password</string>
+    <string name="err_name">please enter your name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="reg_event_titl">Register for event</string>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="Back">Back</string>
+    <string name="emailerror">Enter a valid email</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+    <string name="calender">On Fleek Calendar</string>
+    <string name="btn_calender">CALENDAR</string>
+    <string name="events">Events</string>
+    <string name="etxt_category">category</string>
+    <string name="uploadimage">Upload Image</string>
+<string name="calen">Open Calender</string>
+    <string name="event_start_date">1/1/2018</string>
+    <string name="event_start_time">12:12</string>
+    <string name="event_end_date">1/1/2018</string>
+    <string name="event_end_time">12:12</string>
+    <string name="event_country">City</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gps__tracker">Map</string>
+    <string name="btnSearchm"> Search</string>
+    <string name="btnDriving">Driving Mode</string>
+    <string name="btnWalk">Walking Mode</string>
+    <string name="event_color">Name</string>
+    <string name="event_backgroun">Name</string>
+    <string name="edittext">Location:</string>
+    <string name="btnSchool">Nearby Schools</string>
+    <string name="btnHospital">Nearby Hospitals</string>
+    <string name="btnRestaurant">earby Restaurants</string>
+    <string name="my_toolbar">Add event Image</string>
+    <string name="upload_event_img">upload image</string>
+    <string name="button">Go</string>
+    <string name="Briefly">Briefly</string>
+    <string name="btn_setinfo">Update</string>
+    <string name="button2">OK</string>
+    <string name="description">Parse PHP SDK</string>
+    <string name="tv_date">TextView</string>
+    <string name="tv_event">TextView</string>
+    <string name="textView">textView</string>
+    <string name="lo_mo">Load More</string>
+    <string name="textViewShortDes">event description</string>
+    <string name="textdate">textdate</string>
+    <string name="show">MY Ticket</string>
+    <string name="nav_edit_layout">Edit Profile</string>
+    <string name="nav_third_layout">Language</string>
+    <string name="nav_tickets">Followed Events</string>
+    <string name="tit">Other Feature</string>
+    <string name="nav_scan">Scan QR</string>
+    <string name="nav_map">Map</string>
+    <string name="event_save">event_save</string>
+    <string name="Profile">Profile</string>
+    <string name="lan">Language</string>
+    <string name="sv">Search..</string>
+    <string name="tity">Choose your search method</string>
+    <string name="cat">General</string>
+    <string name="gen">category</string>
+    <string name="ara">You have selected Arabic</string>
+    <string name="era">You have selected English</string>
+    <string name="MYTicket">MY Ticket</string>
+    MY Ticket
+    <string name="chooselang">Choose the language</string>
+    <string-array name="languages">
+        <item>Select language</item>
+        <item>العربية</item>
+        <item>English</item>
+    </string-array>
+    <string name="text">Attendees</string>
+    <string name="etxt_event">Select Event </string>
+    <string name="action_today">Today</string>
+    <string name="action_day_view">Day view</string>
+    <string name="action_three_day_view">3 day view</string>
+    <string name="action_week_view">Week view</string>
+    <string name="title_activity_basic">Basic Example</string>
+    <string name="title_activity_asynchronous">Asynchronous Events</string>
+    <string name="async_error">Could not download events from the internet</string>
+    <string name="Calenn">Calendar</string>
+
+    <string-array name="my_array">
+        <item>General</item>
+        <item>Education</item>
+        <item>Business</item>
+        <item>Party</item>
+        <item>Cultural</item>
+        <item>Food and Drink</item>
+        <item>Music</item>
+        <item>Art</item>
+        <item>Festival</item>
+        <item>Health</item>
+    </string-array>
+
+    <string name="sel">Select Your Category</string>
+
+</resources>

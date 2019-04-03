@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:layout_gravity="center"
+        android:drawable="?android:attr/fastScrollTextColor"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_main"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/thoms" />
+
+            <ImageView
+                android:id="@+id/btn_lod_pic"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="75dp"
+
+                android:src="@drawable/ic_event_add" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.91">
+
+            <TextView
+                android:id="@+id/etxt_main_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/img_category"
+                android:layout_toStartOf="@+id/img_category"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/img_category"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                android:layout_marginEnd="159dp"
+                android:layout_marginRight="159dp"
+                android:background="@drawable/ic_choose_category"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/etxt_main_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/pronav"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:choiceMode="singleChoice"
+
+            app:menu="@menu/menue"
+
+            >
+
+        </android.support.design.widget.BottomNavigationView>
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/add_event"
+                android:layout_width="54dp"
+                android:layout_height="51dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="?attr/colorPrimaryDark"
+                app:srcCompat="@drawable/ic_addevent"
+                />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

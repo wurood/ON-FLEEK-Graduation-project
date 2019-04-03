@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rp.listview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/fleek_2"
+        android:label="On Fleek"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        tools:node="replace"
+        android:textColor="@color/colorPrimaryDark"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.home_activity"
+            android:label="@string/title_activity_home_activity"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.example.settings" />
+        <activity android:name="com.example.FullScreenImageActivity" />
+        <activity android:name="com.example.search" />
+        <activity android:name="com.example.addevent" />
+        <activity android:name="com.example.event_photo" />
+        <activity android:name="com.example.register_event" />
+        <activity android:name="com.example.MainActivitymain" />
+        <activity android:name="com.example.SearchProfile"></activity>
+<activity android:name="com.example.calenderr"></activity>
+        <activity android:name="com.example.BasicActivity" />
+        <activity android:name="com.example.test_main" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

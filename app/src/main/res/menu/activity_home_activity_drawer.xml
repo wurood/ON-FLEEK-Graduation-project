@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_edit_layout"
+            android:icon="@drawable/ic_set_profile"
+            android:title="@string/nav_edit_layout" />
+        <item
+            android:id="@+id/nav_tickets"
+            android:icon="@drawable/ic_ticket"
+            android:title="@string/nav_tickets" />
+
+        <item
+            android:id="@+id/nav_lan"
+            android:icon="@drawable/ic_lang"
+            android:title="@string/nav_third_layout" />
+
+        <itemi
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/ic_scan"
+            android:title="@string/nav_scan" />
+    </group>
+
+    <item android:id="@+id/tit" android:title="@string/tit">
+        <menu>
+
+<item
+    android:id="@+id/nav_wuro"
+    android:icon="@drawable/ic_scan"
+    android:title="@string/nav_scan"
+    />
+
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_place"
+                android:title="@string/nav_map" />
+            <item
+                android:id="@+id/nav_calen"
+                android:icon="@drawable/ic_event"
+                android:title="@string/Calenn" />
+        </menu>
+    </item>
+
+</menu>

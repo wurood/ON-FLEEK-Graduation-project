@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Listview</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home_activity">On Fleek</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="editTextName"> الأسم كامل</string>
+    <string name="editphoto"> تعديل الصورة</string>
+    <string name="editTextEmail">الأيميل</string>
+    <string name="editTextPassword">الرقم السري</string>
+    <string name="linkSignin">ليس لديك حساب بعد ؟ تسجيل اشتراكك</string>
+    <string name="etxt_signin">الأيميل</string>
+    <string name="etxt_signin_pass">كلمة المرور</string>
+    <string name="buttonLRegister">الأشتراك</string>
+    <string name="buttonLogin">الدخول </string>
+    <string name="err_msg_name">ادخل الأسم كامل</string>
+    <string name="err_msg_email">ادخل ايميل صالح</string>
+    <string name="err_msg_password">الرقم السري  </string>
+    <string name="nameerror">ادخل الأسم</string>
+    <string name="emailerror"> ادخل الأيميل  </string>
+    <string name="event_title">اسم الحدث</string>
+    <string name="event_seats">عدد المقاعد المتوفرة</string>
+    <string name="event_desc">صف حدثك باختصار</string>
+    <string name="event_address">مكان الحدث</string>
+    <string name="event_type">اختر النوع</string>
+    <string name="calen">التقويم</string>
+    <string name="calender">تقويم onfleek</string>
+    <string name="btn_up">أضف صورة</string>
+    <string name="btn_reg">اشتراك</string>
+    <string name="btn_log">تسجيل الدخول</string>
+    <string name="btn_lod_new">اختر صورة</string>
+    <string name="Back">رجوع</string>
+    <string name="etxt_sett_phone">رقم المحمول</string>
+    <string name="etxt_sett_name">الاسم الكامل</string>
+    <string name="etxt_reg_pass">كلمة المرور</string>
+    <string name="err_name">ادخل اسمك من فضلك</string>
+    <string name="etxt_reg_email">الأيميل</string>
+    <string name="err_pass">كلمة المرور</string>
+    <string name="loading">بقي القليل</string>
+    <string name="etxt_up_name">عنوان الحدث</string>
+    <string name="etxt_up_desc">صف الحدث</string>
+    <string name="uploadimage">اختر صورة</string>
+    <string name="event_start_date">٢٠١٨/١/١</string>
+    <string name="event_start_time">١٢:١٢</string>
+    <string name="event_end_date">٢٠١٨/١/١</string>
+    <string name="event_end_time">١٢:١٢</string>
+    <string name="event_country">اسم المدينة</string>
+    <string name="btnDriving">وضع القيادة</string>
+    <string name="btnWalk">وضع المشي</string>
+    <string name="my_toolbar">إضافة صورة الحدث</string>
+    <string name="upload_event_img">تحميل صورة الحدث</string>
+    <string name="events">الأحداث</string>
+    <string name="btn_calender">التقويم</string>
+    <string name="etxt_category">الفئة</string>
+    <string name="edittext">الموقع :</string>
+    <string name="button">اذهب</string>
+    <string name="Briefly">موجز</string>
+    <string name="btn_setinfo">تعديل</string>
+    <string name="button2">موافق</string>
+    <string name="etxt_list_title">العنوان</string>
+    <string name="etxt_list_desc">الوصف</string>
+    <string name="tv_date">نص</string>
+    <string name="tv_event">نص</string>
+    <string name="lo_mo">تحميل المزيد </string>
+    <string name="textView">نص</string>
+    <string name="textViewShortDes">نص</string>
+    <string name="textdate">نص</string>
+    <string name="show">تذكرتي</string>
+    <string name="nav_edit_layout">تعديل الملف الشخصي</string>
+    <string name="nav_third_layout">اللغة</string>
+    <string name="nav_tickets">الحدث الذي تم متابعته</string>
+    <string name="tit">الخصائص الأخرى</string>
+    <string name="nav_scan">اضافة حدث بواسطة ال QR</string>
+    <string name="nav_map">الخريطة</string>
+    <string name="event_save">حفظ الحدث</string>
+    <string name="Profile">الصفحة الشخصية</string>
+    <string name="lan">اللغة</string>
+    <string name="etxt_sett_email">الأيميل</string>
+    <string name="sv">بحث..</string>
+    <string name="tity">اختر طريقة البحث</string>
+    <string name="cat">عام</string>
+    <string name="gen">حسب الفئة</string>
+    <string name="chooselang">Choose the language</string>
+    <string name="MYTicket">تذكرتي</string>
+    <string-array name="languages">
+        <item>اختر اللغة </item>
+        <item>العربية</item>
+        <item>English</item>
+    </string-array>
+    <string name="ara">لقد اخترت اللغة العربية</string>
+    <string name="era">لقد اخترت اللغة الانجليزية</string>
+    <string name="etxt_reg_name">الأسم كامل </string>
+    <string name="text">الحاضرين</string>
+    <string name="etxt_event"> اختر الحدث </string>
+
+    <string name="action_today">اليوم</string>
+    <string name="action_week_view">Week view</string>
+    <string name="title_activity_basic">Basic Example</string>
+    <string name="title_activity_asynchronous">Asynchronous Events</string>
+    <string name="async_error">Could not download events from the internet</string>
+<string name="Calenn">التقويم</string>
+
+    <string-array name="my_array">
+        <item>عام</item>
+        <item>تعليمي</item>
+        <item>اعمال</item>
+        <item>احتفالات</item>
+        <item>ثقافي</item>
+        <item>طعام و شراب</item>
+        <item>غنائي</item>
+        <item>فن</item>
+        <item>مهرجانات</item>
+        <item>الصحة</item>
+    </string-array>
+    <string name="sel">اختر الفئة</string>
+</resources>
